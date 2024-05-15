@@ -1,0 +1,82 @@
+body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+      header {
+          background-color: #333;
+          color: #fff;
+          padding: 10px 20px;
+          text-align: center;
+      }
+      nav {
+          background-color: #ffffff;
+          padding: 10px;
+          text-align: center;
+          height:;
+      }
+      nav a {
+          color: #fff;
+          text-decoration: none;
+          padding: 10px 20px;
+      }
+      nav a:hover {
+          background-color: #000000;
+      }
+      .navbar-brand img{
+        width: 80px;
+        background-color:transparent;
+   }
+   .warnebros-dropdown-box{
+    display: none;
+}
+
+.warnebros-dropdown{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 9px !important;
+}
+
+.warnebros-dropdown-box .dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.784);
+    font-size: 9px !important;
+    color: #fff !important;
+    margin-left: -80px;
+    border-top: 3px solid #fff;
+    margin-top: 30px;
+}
+
+.warnebros-dropdown-box .dropdown-menu .dropdown-item{
+     color: rgba(255, 255, 255, 0.646);
+     text-align: center;
+     width: 250px;
+     font-size: 15px;
+     padding: 10px 20px;
+}
+
+.warnebros-dropdown-box .dropdown-menu .dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.133);
+    color: #fff;
+}
+
+i{
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+      section {
+          padding: 20px;
+      }
+      article {
+          border-bottom: 1px solid #ddd;
+          margin-bottom: 20px;
+          padding-bottom: 20px;
+      }
+      h2 {
+          margin-top: 0;
+      }
+      p {
+          color: #555;
+      }

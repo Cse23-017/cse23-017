@@ -1,0 +1,286 @@
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    width: 100vw;
+    /* position: relative; */
+}
+
+.warnebros-padding-left{
+    padding-left: 57px;
+}
+
+
+.warnebros-padding-right{
+    padding-right: 57px;
+}
+
+.warnebros-navbar{
+    /* background-color: #0C0C0C !important; */
+    z-index: 1000;
+    transition: background 0.2s linear;
+    position: fixed;
+    width: 100vw;
+}
+
+.navbar-brand img{
+     width: 80px;
+     background-color:transparent;
+}
+
+.warnebros-row{
+    width: 1000%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.warnebros-row .left{
+    width: max-content
+}
+.warnebros-row .right{
+    width: max-content
+}
+
+.warnebros-dropdown-box{
+    display: none;
+}
+
+.warnebros-dropdown{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 9px !important;
+}
+
+.warnebros-dropdown-box .dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.784);
+    font-size: 9px !important;
+    color: #fff !important;
+    margin-left: -80px;
+    border-top: 3px solid #fff;
+    margin-top: 30px;
+}
+
+.warnebros-dropdown-box .dropdown-menu .dropdown-item{
+     color: rgba(255, 255, 255, 0.646);
+     text-align: center;
+     width: 250px;
+     font-size: 15px;
+     padding: 10px 20px;
+}
+
+.warnebros-dropdown-box .dropdown-menu .dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.133);
+    color: #fff;
+}
+
+i{
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.warnebros-profile{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.warnebros-nav{
+    display: block ;
+    align-items: center;
+}
+
+.warnebros-nav button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.623);
+    border: none;
+    font-size: 13px;
+}
+
+.warnebros-nav button:hover{
+    color: #dfb90f;
+}
+
+
+/*.warnebros-home-video{
+    width: 100%;
+    z-index: 10;
+    position: relative;
+} */
+
+/*.warnebros-home-video .top{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+}*/
+
+/*.warnebros-home-video .bottom{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+}
+.warnebros-home-video video{
+    width: 100%;
+}
+
+
+.warnebros-home-video .content{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    /* background-color: #fff; */
+   /* z-index: 100;
+    display: flex;
+}
+
+.warnebros-home-video .content .left{
+    margin-left: 80px; 
+}
+.warnebros-home-video .content .left img{
+   margin-top: 350px;
+   width: 200px;
+   
+}
+.warnebros-home-video .content .right{
+    width: 50%;
+}*/
+
+
+.slider-box{
+    position: absolute;
+    top: 100px ;
+    z-index: 500;
+    /* margin-left: 80px; */
+}
+
+
+
+.slider2{
+    position: absolute;
+    top: 900px ;
+    z-index: 500;
+}
+
+.slider3{
+    position: absolute;
+    top: 1100px ;
+    z-index: 500;
+    margin-bottom: 40px;
+}
+
+
+.card{
+    width: 240px;
+    height: 250px;
+    background-color: #000000;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    margin: 3px;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.card:hover{
+    transform: scaleX(1.4) scaleY(1.4);
+    z-index: 10;
+}
+
+
+.card-body{
+    display: none;
+    /* height: 0px; */
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #000000;
+    top: 120px;
+    width: 100%;
+}
+
+
+.card-icon{
+    color: #fff;
+    padding: 0px !important;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card:hover > .card-body{
+    display: block;
+    /* height: max-content !important; */
+}
+
+.carousel-control-prev{
+    display: none;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+.tab-change-btn{
+    border: none;
+    width: 30px !important;
+}
+
+
+.margin-right{
+    margin-right: 100px;
+}
+
+.warnebros-card-text{
+    font-size: 12px ;
+}
+
+.position-slider2{
+    top: 10px !important;
+    position: absolute !important;
+}
+
+.margin-title2{
+    margin-top: 25px;
+}
+
+.position-slider3{
+    top: 10px !important;
+    position: absolute !important;
+}
+
+
+.container-footer{
+    margin-top: 1110px;
+    margin-bottom: 100px;
+    position: absolute;
+    border: #141414;
+}
+
+ul{
+    list-style: none;
+    font-size: 15px ;
+    color: rgba(233, 10, 10, 0.678);
+    font-weight: 100;
+}
+
+
+.service-btn{
+    background-color: transparent;
+     margin-left: 30px;
+      color: rgba(216, 3, 3, 0.795);
+      border: 1px solid rgba(0, 0, 0, 0.367);
+      font-size: 15px;
+      font-weight: 100;
+}
+
+.copy-right{
+    font-size: 15px;
+      font-weight: 200;
+      color: rgb(255, 255, 255);
+      margin-left: 28px;
+}
